@@ -1,0 +1,147 @@
+.None{
+    display: flex;
+    align-items: center;
+    background-color: #D80000;
+    color: white;
+    width: 100vw;
+    height: 250px;
+}
+.Tone{
+    padding: 20px;
+    background: #D80000;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height : auto;
+}
+.None{
+    display: flex;
+    /* background: #D80000; */
+    color: white;
+    min-width: 65%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.TwoI{
+    font-size: 20px;
+}
+.Two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+}
+
+.Three button{
+    border: 1px solid #E6E1DF;
+    background: #FFFDF1;
+    border-radius: 8px;
+    height: 52px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    /* box shadow at bottom */
+    box-shadow: 0px 6px 0px rgba(0,0,0,0.75);
+}
+.Three button:hover{
+    transition: all 0.5s;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+}
+.Mobile{
+    display: none;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.No{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+@media screen and (max-width:1150px){
+    .No{
+        width: 55%;
+        margin-left: -239px;
+    }
+    .One{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:1030px){
+    
+    .Two{
+        display: none;
+    }
+    .Three button{
+        transform: translateX(230px);
+    }
+    .One{
+        margin-left: 120px;
+    }
+    /* .Tone{
+        height: 15vh;
+    } */
+}
+@media screen and (max-width:860px){
+        
+    .Three button{
+        transform: translateX(140px);
+    }
+    .One{
+        margin-left: 220px;
+    }
+    /* .Tone{
+        height: 15vh;
+    } */
+}
+ @media screen and (max-width:740px){
+    .One{
+        margin-left: 350px;
+    }
+    .Three button{
+        transform: translateX(20px);
+    }
+    /* .Tone{
+        height: 10vh;
+    } */
+} 
+@media screen and (max-width:580px){
+    .Three button{
+        transform: translateX(-40px);
+    }
+    .One{
+        margin-left: 400px;
+    }
+    /* .Tone{
+        height: 10vh;
+    } */
+}
+@media screen and (max-width:500px){
+    .Three button{
+        transform: translateX(-100px);
+    }
+    .One{
+        margin-left: 460px;
+    }
+    /* .Tone{
+        height: 10vh;
+    } */
+}
+@media screen and (max-width:380px){
+    .Three button{
+        margin-left: -10vw;
+    }
+}

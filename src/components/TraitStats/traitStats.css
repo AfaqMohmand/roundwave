@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.trait-stats-headingSection{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px !important;
+    margin-top: 15px !important;
+    transform: translateY(50px) !important;
+    margin-bottom: 30px !important;
+    margin-left: 20px !important;
+    letter-spacing: 0.13em;
+}
+.trait-stats-headingSection img{
+    transform: translate(-23px,7px) scale(0.9) !important;
+}
+.trait-stats{
+    max-width: 1100px !important;
+    margin: auto;
+}
+.card-template{
+    background-color: white;
+    height: 650px;
+    width: 1100px;
+    border-radius: 20px;
+}
+.card-inner-template{
+    width: 1090px;
+    height: 630px;
+    background-color: #141414;
+    transform: translate(5px,4px);
+    border-radius: 20px;
+}
+.card-inner-template .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.trait-state-containerOne{
+    transform: translate(50px,50px);
+}
+.first-row{
+    margin-top: -50px;
+}
+.first-row hr{
+    width: 164px;
+    transform: translateX(-160px);
+    border: 2px solid #FFFFFF;
+    margin-top: -60px;
+    border-radius: 1px solid #FFFFFF;
+}
+.trait-state-containerTwo img{
+    width: 600px;
+    height: 600px;
+}
+.second-row{
+    margin-top: 20px;
+}
+.third-row{
+    margin-top: 20px;
+}
+.fourth-row{
+    margin-top: 20px;
+}
+.first-row p{
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.first-row h2{
+    font-size: 60px;
+    line-height: 100px !important;
+    margin-top: -35px;
+    letter-spacing: 0.04em;
+    font-family: 'Luckiest Guy', cursive;
+}
+.first-row h6{
+    font-size: 30px;
+    letter-spacing: 0.11em;
+    line-height: 34px;
+    font-weight: 400px;
+    margin-top: -70px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.card-whole-template{
+    transform: translateY(40px) !important;
+}
+@media screen and (max-width:1130px){
+    .trait-stats-headingSection{
+        margin-left: 70px !important;
+    }
+}
+@media screen and (max-width:1080px){
+    .card-whole-template{
+        transform: scale(0.87) !important;
+    }
+}
+@media screen and (max-width:1000px){
+    .trait-stats-headingSection{
+        margin-left: 110px !important;
+    }
+    .card-whole-template{
+        transform: scale(0.81) !important;
+    }
+}
+@media screen and (max-width:920px){
+    .card-whole-template{
+        transform: translateX(1px) scale(0.78)!important;
+        margin-top: -8vh !important;
+    }
+    .trait-stats-headingSection{
+        transform: translate(-30px,-10px) scale(0.9) !important;
+    }
+}
+@media screen and (max-width:890px){
+    .card-whole-template{
+        transform: scale(0.73)!important;
+        margin-top: -24vh !important;
+    }
+    .trait-stats-headingSection{
+        transform: translate(-10px,-10px) scale(0.9) !important;
+    }
+}
+@media screen and (max-width:850px){
+    .card-whole-template{
+        transform: scale(0.7)!important;
+        margin-top: -14vh !important;
+    }
+    .trait-stats-headingSection{
+        transform: translate(15px,-50px) scale(0.9) !important;
+    }
+}
+@media screen and (max-width:800px){
+    .card-whole-template{
+        transform: scale(0.67)!important;
+        margin-top: -35vh !important;
+    }
+    .trait-stats-headingSection{
+        transform: translate(15px,-50px) scale(0.9) !important;
+    }
+}
+@media screen and (max-width:768px){
+    .card-whole-template{
+        transform: translate(190px,220px) !important;
+    }
+    .trait-stats-headingSection{
+        transform: translate(180px,-110px) scale(0.9) !important;
+    }
+    .card-inner-template .grid{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+    }
+    .trait-state-containerOne{
+        order: 1;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        transform: translateX(60px);
+        margin-top: -10px !important;
+    }
+    .third-row{
+        margin-top: -20px;
+    }
+    .fourth-row{
+        margin-top: -20px;
+    }
+    .second-row{
+        transform: translateY(-70px);
+    }
+    .first-row hr{
+        display: none;
+    }
+
+    .card-template{
+        background-color: white;
+        height: 1000px;
+        width: 600px;
+        border-radius: 20px;
+        margin-left: 60px;
+    }
+    .card-inner-template{
+        width: 595px;
+        height: 980px;
+        background-color: #141414;
+        transform: translate(3px,4px);
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:760px){
+    .trait-state-containerTwo{
+        order: 0;
+        transform: scale(0.8);
+    }
+    .card-whole-template{
+        margin-top: -15vh !important;
+    }
+    .trait-state-containerTwo img{
+        width: 730px !important;
+        height: 600px !important;
+        margin-left: -60px;
+        margin-top: -50px;
+    }
+    .trait-stats-headingSection{
+        margin-top: -28vh !important;
+    }
+    .first-row{
+        margin-top: 50px;
+    }
+    .trait-state-containerOne .second-row{
+        margin-top: 120px !important;
+    }
+    .third-row {
+        margin-top:-50px
+    }
+    .fourth-row{
+        margin-top: -50px;
+    }
+    .trait-state-containerOne{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:690px){
+    .card-whole-template{
+        transform:translateX(-45px) scale(0.8) !important;
+        margin-top: -13vh !important;
+        margin-left: 190px;
+    }
+    .trait-stats-headingSection{
+        transform: translateX(-10px) scale(0.7);
+        margin-top: -30vh !important;
+    }
+}
+@media  screen and (max-width:540px) {
+    .card-whole-template{
+        transform:translateX(-25px) scale(0.7) !important;
+        margin-top: -25vh !important;
+
+    }
+    .trait-stats-headingSection{
+        transform: translateX(180px) scale(0.8) !important;
+    }
+    .trait-stats-headingSection{
+        margin-top: -10vh !important;
+    }
+}
+@media  screen and (max-width:480px) {
+    .card-whole-template{
+        transform:translateX(-35px) scale(0.65) !important;
+        margin-top: -35vh !important;
+    }
+    .trait-stats-headingSection{
+        transform: translateX(20px) scale(0.6);
+        margin-bottom: -200px;
+    }
+    .trait-stats-headingSection{
+        margin-top: -20vh !important;
+    }
+}
+@media  screen and (max-width:420px) {
+    .card-whole-template{
+        transform:translateX(110px) scale(0.6) !important;
+        margin: auto;
+        margin-top: -240px !important;
+    }
+    .trait-stats-headingSection{
+        transform: translateX(10px) scale(0.6);
+        margin-bottom: -200px;
+    }
+    .trait-stats-headingSection{
+        margin-top: -13vh !important;
+    }
+}
+@media  screen and (max-width:400px) {
+    .card-whole-template{
+        transform:translateX(105px) scale(0.55) !important;
+        margin-top: -270px !important;
+    }
+    .trait-stats-headingSection{
+        transform: translateX(100px) scale(0.56) !important;
+        margin-bottom: -230px;
+    }
+    .trait-stats-headingSection{
+        margin-top: -13vh !important;
+    }
+}

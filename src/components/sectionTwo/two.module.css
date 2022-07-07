@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.Two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+/* gif */
+.Gif{
+    width: 50%;
+    position: absolute;
+    top: -670px;
+    transform: scale(0.7);
+    z-index: 0 !important;
+}
+.GifTwo{
+    width: 50%;
+    position: absolute;
+    top: -670px;
+    transform: scale(0.7);
+    z-index:0 !important;
+    display: none;
+}
+/* Twoone */
+.TwoOne{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    margin-top: 450px;
+    margin-bottom: 100px;
+}
+.About{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+}
+.About img{
+    width: 100%;
+    height: auto;
+}
+
+.About h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #141414;
+    text-shadow: 5px solid #D80000;
+    font-size: 70px;
+    text-shadow: -5px 5px 0 #D80000,
+                  5px 5px 0 #D80000,
+                  5px -5px 0 #D80000,
+                 -5px -5px 0 #D80000;
+}
+.underline{
+   margin-top: -20px;
+   transform: scale(0.9);
+}
+
+/* Large */
+.Large{
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 450px; */
+}   
+.Large div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Small Text */
+.SmallText{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 1050px;
+}
+
+.Hollow{
+    margin: 0 auto;
+    font-size: 5em;
+     padding: 1px 40px;
+     color: #141414;
+     text-shadow:0px 5px 0 white,
+     1px 1px 0 white,
+     1px -1px 0 white,
+    -1px -1px 0 white;
+
+}
+.Fill{
+    margin: 0 auto;
+ font-size: 5em;
+}
+.FillTT{
+    margin: 0 auto;
+    font-size: 5em;
+}
+.Arrow{
+        position: relative;
+        left: 25%;
+        top: -25px;
+}
+.ArrowTwo{
+    display: none;
+}
+.Icon{
+    display: none;
+}
+.HollowTT{
+    margin: 0 auto;
+    font-size: 5em;
+     padding: 1px 40px;
+     color: #141414;
+     text-shadow:0px 5px 0 white,
+     1px 1px 0 white,
+     1px -1px 0 white,
+    -1px -1px 0 white;
+}
+/* for MObile View */
+/* @media screen and (max-width: 500px) , (max-width: 900px) {
+    .Icon{
+        display: block;
+        position: relative;
+        top: -20px;
+    }
+    .Fill{
+        font-size: 30px;
+    }
+    .Hollow{
+        font-size: 30px;
+        padding: 1px 10px;
+    }
+    .About h1{
+        font-size: 55px;
+    }
+    .Large div{
+        max-width: 100%;
+        width: 100%;
+        transform: scale(0.9);
+    }
+    .TwoOne{
+        height: auto;
+        margin-top: 150px;
+    }
+    .Gif{
+        top: -230px;
+    }
+
+} */
+@media screen and (max-width:1150px){
+    .SmallText{
+        max-width: 900px;
+    }   
+    .Arrow{
+        display: none;
+    }
+    .ArrowTwo{
+        display: block;
+    }
+    .Gif{
+        display: none;
+    }
+    .GifTwo{
+        display: block;
+    }
+}
+@media screen and (max-width:1100px){
+    .Fill{
+        margin-left: -30px;
+    }
+    .HollowTT{
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:950px){
+    .Large{
+        transform: scale(0.9);
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:900px){
+    .SmallText{
+        max-width: 800px;
+    }   
+   
+}
+@media screen and (max-width:850px){
+    .Large{
+        transform: scale(0.8);
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width:770px) and (max-width:1050px){
+    .About{
+        margin-top: -30vh !important;
+    }
+}
+@media screen and (max-width:750px){
+    .Large{
+        transform: scale(0.7);
+    }
+    .About{
+        margin-top: -150px;
+    }
+}
+@media screen and (max-width:800px){
+    .SmallText{
+        max-width: 690px;
+    }   
+   .About{
+       margin-top: -60vh;
+   }
+}
+@media screen and (max-width:700px){
+    
+    .SmallText{
+        max-width: 600px;
+        margin-top: 10px;
+    }
+    .About{
+        margin-top: -65vh;
+    }
+}
+@media screen and (max-width:660px){
+    .Large{
+        transform: scale(0.6);
+    }
+    .About{
+        margin-top: -60vh;
+    }
+}
+@media screen and (max-width:620px){
+    .SmallText{
+        max-width: 500px;
+    }
+    .About{
+        margin-top: -60vh;
+    }
+}
+@media screen and (max-width:570px){
+    .Large{
+        transform: scale(0.5);
+        margin-top: -20px;
+    }
+    .About{
+        margin-top: -70vh;
+    }
+}
+@media screen and (max-width:550px){
+    
+    .SmallText{
+        max-width: 460px;
+        margin-top: -30px;
+    }
+    .About{
+        margin-top: -70vh;
+    }
+}
+@media screen and (max-width:480px){
+    .SmallText{
+        transform: scale(0.9);
+    }
+    .Large{
+        transform: scale(0.44);
+    }
+    .About{
+        margin-top: -75vh;
+    }
+}
+@media screen and (max-width:420px){
+    .SmallText{
+        margin-top: -40px;
+        max-width: 400px;
+    }
+    .Large{
+        transform: scale(0.4);
+        margin-top: -40px;
+    }
+    .About{
+        margin-top: -80vh;
+    }
+}
+@media screen and (max-width:385px){
+    .Large{
+        transform: scale(0.37);
+        margin-left: 5px;
+    }
+    .About{
+        margin-top: -450px;
+    }
+}
+ /* @media screen and (max-width: 1000px) {
+    .Fill{
+        font-size: 3em;
+    }
+    .Hollow{
+        font-size: 3em;
+    }
+}  */
+@media screen and (max-width:768px){
+    @media screen and (max-width:1000px){
+        .GifTwo{
+            margin-left: -30px;
+        }
+    }
+    .GifTwo{
+        transform: scale(0.7);
+        margin-top: -70px;
+        margin-left: -40px;
+    }
+}
+@media screen and (max-width:500px){
+    .GifTwo{
+        transform: scale(0.6);
+        margin-top: -40px;
+    }
+}
+@media screen and (max-width:430px){
+    .GifTwo{
+        transform: scale(0.5);
+        margin-top: -30px;
+    }
+}

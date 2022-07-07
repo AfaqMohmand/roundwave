@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.the-team{
+    max-width: 1250px;
+    transform: translateX(600px);
+    margin-top: 200px;
+}
+/* .the-team-cards{
+    border: 3px groove red;
+}
+.first-user{
+    border: 3px groove blue;
+} */
+.text-center{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: start;
+    /* margin-left: -450px !important; */
+    font-weight: 400;
+    transform: translateX(-300px);
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 55px;
+    display: block;
+}
+.text-center img{
+    width: 50px !important;
+    height: 70px !important; 
+    margin-left: 2px !important;
+    display: inline !important;
+}
+.TeambBgImage{
+    width: 1400px;
+    /* width: 200%; */
+    height: 900px;
+    overflow: hidden;
+    margin-left: -70px;
+    /* transform: translateX(-568px);
+    object-fit: cover; */
+    position: relative;
+}
+@media screen and (min-width:1500px) and (max-width:1850px){
+    .TeambBgImage{
+        width: 140%;
+        /* transform: translateX(-568px); */
+        margin-left: -245px !important;
+        object-fit: cover; 
+        height: 100%;
+    }
+    .red-circle-one{
+        position: absolute;
+        top: 886px !important;
+        left: -29px !important;
+    }
+    .first-user{
+        position: absolute !important;
+        top: 535px !important;
+        left: -120px !important;
+    }
+    .red-circle-two{
+        position:absolute;
+        top: 800px !important;
+        left: 221px !important;
+    }
+    .second-user{
+        position: absolute !important;
+        top: 460px !important;
+        left: 100px !important;
+    }
+    .red-circle-three{
+        position: absolute;
+        top: 869px !important;
+        left: 449px !important;
+    }
+    .third-user{
+        position: absolute !important;
+        top: 540px !important;
+        left: 320px !important;
+    }
+    .red-circle-four{
+        position:absolute;
+        top: 918px !important;
+        left: 875px !important;
+    }
+    .fourth-user{
+        position: absolute !important;
+        top: 585px !important;
+        left: 720px !important;
+    }
+    .fifth-user{
+        position: absolute !important;
+        top: 470px !important;
+        left: 1100px !important;
+    }
+    .red-circle-five{
+        position: absolute;
+        top: 805px !important;
+        left:1225px !important ;
+    }
+    .red-circle-six{
+        position: absolute;
+        top: 57% !important;
+    }
+    .sixth-user{
+        position: absolute;
+        top: 32% !important;
+    }
+}
+/* Ends here */
+.red-circle-one{
+    position: absolute;
+    top: 705px;
+    left: 82px;
+}
+.red-circle{
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    color: #D80000;
+    background: #D80000;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(216, 0, 0, 0.95);
+}
+.red-circle-two{
+    position: absolute;
+    top: 649px;
+    left: 161px;
+}
+.red-circle-three{
+    position: absolute;
+    top: 701px;
+    left: 456px;
+}
+.red-circle-four{
+    position: absolute;
+    top: 741px;
+    left: 785px;
+}
+.red-circle-five{
+    position: absolute;
+    top: 646px;
+    left: 1074px;
+}
+.red-circle-six{
+    position: absolute;
+    top: 637px;
+    left: 370px;
+}
+/* Icons */
+.icons .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.instagram-icon{
+    margin-right: 10px !important;
+}
+.instagram-icon,.twitter-icon{
+   border: 1px solid #FFFFFF;
+   box-sizing: border-box;
+   border-radius: 40px;
+   padding: 7px 9px;
+   border-bottom: 3px solid #FFFFFF;
+}
+.twitter-icon a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.instagram-icon a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* profile cards */
+.team-cards{
+    width: 260px;
+    height: 270px;
+    border-radius: 16px;
+    background-color: #141414;
+    border: 2px solid #FFFFFF;
+    border-bottom: 6px solid #FFFFFF;
+    padding: 20px !important;
+}
+.team-cards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-top: 15px;
+
+}
+.team-cards h2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    transform: translateY(5px);
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.07em;
+}
+.team-cards p{
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 20px;
+    transform: translateY(-8px);
+    text-align: center;
+}
+.first-user{
+    position: absolute;
+    top: 375px;
+    left: -50px;
+}
+.second-user{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+}
+.third-user{
+    position: absolute;
+    top: 370px;
+    left: 320px;
+}
+.fourth-user{
+    position: absolute;
+    top: 405px;
+    left: 640px;
+}
+.fifth-user{
+    position: absolute;
+    top: 315px;
+    left: 930px;
+}
+.sixth-user{
+    position: absolute ;
+    top: 310px ;
+    left: 230px !important;
+}
+/* Responsiveness of heading */
+@media screen and (max-width:1030px){
+    .the-team .text-center{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:970px){
+    .the-team .text-center{
+        margin-left: 210px;
+    }
+}
+@media screen and (max-width:930px){
+    .the-team .text-center{
+        margin-left: -340px !important;
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width:820px){
+    .the-team .text-center{
+        margin-left: -260px !important;
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width:768px){
+    .the-team .text-center{
+        margin-left: -10px !important;
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width:690px){
+    .the-team .text-center{
+        margin-left: -10px !important;
+        transform: scale(0.8);
+        margin-top: -240px;
+    }
+}
+@media screen and (max-width:540px){
+    .the-team .text-center{
+        margin-left: -10px !important;
+        transform: scale(0.7);
+        margin-top: -270px !important;
+    }
+}
+@media screen and (max-width:420px){
+    .the-team .text-center{
+        margin-left: 10px !important;
+        transform: scale(0.65);
+    }
+}
+@media screen and (max-width:1030px){
+    .TeambBgImage{
+        display: none;
+    }
+    .TheTeamCards{
+        display: none;
+    }
+    .red-circle{
+        display: none;
+    }
+}
+.show-cards{
+    display: none;
+}
+@media screen and (max-width:1030px){
+    .show-cards{
+        display: block;
+        margin-left: 100px;
+    }
+    .show-dummy-cards__flex{
+        margin-top: 21px;
+    }
+}
+@media screen and (max-width:730px){
+    .second-dummy-card,.fourth-dummy-card,.sixth-dummy-card{
+        margin-top: 2vh;
+    }
+}
+/* the Team small cards */
+.show-dummy-cards__flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -140px;    
+}
+.first-card-team{
+    flex-basis: 50%;
+    margin-left: 400px;
+    position: fixed;
+}
+.second-card-team{
+    flex-basis: 50%;
+}
+.second-div-cards{
+    margin-top: 50px;
+}
+.third-div-cards{
+    margin-top: 50px;
+}
+.show-dummy-cards-two__flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (min-width:360px) and (max-width:400px){
+    .the-team .text-center{
+        margin-top: -50vh !important;
+    }
+}
+@media screen and (min-width:400px) and (max-width:420px){
+    .the-team .text-center{
+        margin-top: -40vh !important;
+    }
+}
+@media screen and (min-width:760px) and (max-width:800px){
+    .the-team .text-center{
+        margin-top: 30vh !important;
+    }
+}
+@media screen and (min-width:801px) and (max-width:830px){
+    .the-team .text-center{
+        margin-top: -20vh !important;
+    }
+}
+@media screen and (min-width:900px) and (max-width:920px){
+    .the-team .text-center{
+        margin-top: -17vh !important;
+    }
+}
+@media screen and (min-width:500px) and (max-width:550px){
+    .the-team .text-center{
+        margin-top: -40vh !important;
+    }
+}
+

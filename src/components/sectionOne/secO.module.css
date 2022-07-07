@@ -1,0 +1,139 @@
+.Sone{
+    display: flex;
+    background: #D80000;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* .Lima{
+    width: 80%;
+} */
+
+.Bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.Bottom ul{
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 250px;
+    position: relative;
+    right: 20px;
+}
+.Icons{
+    transform: translate(-66px,10px);
+}
+.Icons span{
+    display: inline-block;
+    transform: translate(2px,-5px);
+}
+.Icons img{
+    margin-right: 5px;
+}
+.Lima{
+    width:90vw;
+    z-index: 1 !important;
+}
+/* @media screen and (max-width: 500px) , (max-width: 900px) {
+    .Bottom {
+        display: none;
+    }
+    .Sone{
+        height: 300px;
+    }
+    .Icons{
+        flex-direction: row;
+        width: 90%;
+    }
+    .Lima{
+        position: relative;
+        top: -50px;
+    }
+} */
+@media screen and (max-width:1150px){
+    .Sone{
+        margin-left: 30px;
+    }
+
+    .Icons{
+     display: none;   
+    }
+
+    .Bottom ul{
+        display: none;
+    }
+    .Lima{
+        width: 90vw;
+        margin-left: -60px;
+    }
+}
+@media screen and (max-width:1030px){
+    .Lima{
+        width: 90vw;
+        /* margin-left: -90px; */
+    }
+}
+@media screen and (max-width:430px){
+    .Lima{
+        margin-top: 7vh !important;
+    }
+}
+/* @media screen and (max-width:860px){
+    .Lima{
+        width: 109vh;
+    }
+}
+@media screen and (max-width:770px){
+    .Lima{
+        width: 100vw;
+    }
+}
+@media screen and (max-width:740px){
+    .Lima{
+        width: 85vw;
+        margin-top: -80px;
+    }
+}
+@media screen and (max-width:580px){
+    .Lima{
+        width: 73vh;
+        margin-right: -7px;
+    }
+}
+@media screen and (max-width:500px){
+    .Lima{
+        width: 60vh;
+        margin-top: -110px;
+    }
+}
+@media screen and (max-width:410px){
+    .Lima{
+        width: 52vh;
+        margin-right: -10px;
+    }
+} */
+@media screen and(max-width:860px){
+    .Lima{
+        margin-top: -20px !important;
+    }
+}
+@media screen and (max-width:500px){
+    .Sone{
+        height: 80vh;
+    }
+    .Lima{
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width:770px){
+    .Lima{
+        transform: translateY(-10vh) !important;
+    }
+}
